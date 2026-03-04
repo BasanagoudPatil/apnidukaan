@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \# ApniDukaan
 
 
@@ -46,3 +47,7 @@ for independent online stores.
 
 This project is currently under development.
 
+=======
+# apnidukaan
+A platform enabling small Indian vendors to build and manage their own online stores.
+>>>>>>> 67d125da0e97bbf57645a96c3d7e1cd5b0393bc5
