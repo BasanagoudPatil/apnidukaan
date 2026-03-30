@@ -1,8 +1,8 @@
-\# ApniDukaan — System Architecture
+# ApniDukaan — System Architecture
 
 
 
-\## 1. Introduction
+## 1. Introduction
 
 
 
@@ -16,15 +16,15 @@ The goal of this document is to provide a clear understanding of the system desi
 
 
 
-\---
+---
 
 
 
-\## 2. Architecture Overview
+## 2. Architecture Overview
 
 
 
-ApniDukaan follows a \*\*client-server architecture\*\*, where the system is divided into frontend, backend, and data storage layers.
+ApniDukaan follows a **client-server architecture**, where the system is divided into frontend, backend, and data storage layers.
 
 
 
@@ -32,15 +32,15 @@ The platform is designed to support multiple independent shops while maintaining
 
 
 
-\---
+---
 
 
 
-\## 3. High-Level Components
+## 3. High-Level Components
 
 
 
-\### 3.1 Client (Frontend)
+### 3.1 Client (Frontend)
 
 
 
@@ -52,21 +52,21 @@ Responsibilities:
 
 
 
-\* Display user interface
+* Display user interface
 
-\* Handle user input
+* Handle user input
 
-\* Communicate with backend APIs
+* Communicate with backend APIs
 
-\* Render shop and product data
-
-
-
-\---
+* Render shop and product data
 
 
 
-\### 3.2 Server (Backend)
+---
+
+
+
+### 3.2 Server (Backend)
 
 
 
@@ -78,23 +78,23 @@ Responsibilities:
 
 
 
-\* Handle API requests
+* Handle API requests
 
-\* Manage authentication
+* Manage authentication
 
-\* Process orders
+* Process orders
 
-\* Manage shop and product data
+* Manage shop and product data
 
-\* Communicate with the database
-
-
-
-\---
+* Communicate with the database
 
 
 
-\### 3.3 Database
+---
+
+
+
+### 3.3 Database
 
 
 
@@ -106,21 +106,21 @@ Responsibilities:
 
 
 
-\* Store user data
+* Store user data
 
-\* Store shop information
+* Store shop information
 
-\* Store product details
+* Store product details
 
-\* Store order data
-
-
-
-\---
+* Store order data
 
 
 
-\### 3.4 External Services (Optional)
+---
+
+
+
+### 3.4 External Services (Optional)
 
 
 
@@ -132,23 +132,23 @@ Examples:
 
 
 
-\* Payment gateways
+* Payment gateways
 
-\* Notification services (SMS/Email)
+* Notification services (SMS/Email)
 
-\* Cloud storage for images
-
-
-
-\---
+* Cloud storage for images
 
 
 
-\## 4. System Interaction Flow
+---
 
 
 
-\### Description
+## 4. System Interaction Flow
+
+
+
+### Description
 
 
 
@@ -156,31 +156,31 @@ This section describes how components interact during a typical request.
 
 
 
-\### Example Flow
+### Example Flow
 
 
 
-1\. User sends a request from the frontend.
+1. User sends a request from the frontend.
 
-2\. Frontend sends API request to backend.
+2. Frontend sends API request to backend.
 
-3\. Backend processes the request.
+3. Backend processes the request.
 
-4\. Backend interacts with the database.
+4. Backend interacts with the database.
 
-5\. Database returns data.
+5. Database returns data.
 
-6\. Backend sends response to frontend.
+6. Backend sends response to frontend.
 
-7\. Frontend displays the result to the user.
-
-
-
-\---
+7. Frontend displays the result to the user.
 
 
 
-\## 5. Multi-Tenant Architecture
+---
+
+
+
+## 5. Multi-Tenant Architecture
 
 
 
@@ -192,19 +192,19 @@ Key concepts:
 
 
 
-\* Each shop has its own data (products, orders).
+* Each shop has its own data (products, orders).
 
-\* Shops are logically separated.
+* Shops are logically separated.
 
-\* The system maintains isolation between shops.
-
-
-
-\---
+* The system maintains isolation between shops.
 
 
 
-\## 6. Scalability Considerations
+---
+
+
+
+## 6. Scalability Considerations
 
 
 
@@ -216,21 +216,21 @@ Key considerations:
 
 
 
-\* Horizontal scaling of backend services
+* Horizontal scaling of backend services
 
-\* Load balancing across servers
+* Load balancing across servers
 
-\* Efficient database queries
+* Efficient database queries
 
-\* Caching frequently accessed data
-
-
-
-\---
+* Caching frequently accessed data
 
 
 
-\## 7. Performance Considerations
+---
+
+
+
+## 7. Performance Considerations
 
 
 
@@ -238,21 +238,21 @@ To ensure good performance:
 
 
 
-\* Optimize API responses
+* Optimize API responses
 
-\* Use caching mechanisms
+* Use caching mechanisms
 
-\* Optimize image loading
+* Optimize image loading
 
-\* Reduce unnecessary network requests
-
-
-
-\---
+* Reduce unnecessary network requests
 
 
 
-\## 8. Security Considerations
+---
+
+
+
+## 8. Security Considerations
 
 
 
@@ -260,21 +260,21 @@ The system should ensure:
 
 
 
-\* Secure authentication and authorization
+* Secure authentication and authorization
 
-\* Protection of user data
+* Protection of user data
 
-\* Secure communication (HTTPS)
+* Secure communication (HTTPS)
 
-\* Input validation to prevent attacks
-
-
-
-\---
+* Input validation to prevent attacks
 
 
 
-\## 9. Data Management
+---
+
+
+
+## 9. Data Management
 
 
 
@@ -282,19 +282,19 @@ The system should manage data efficiently:
 
 
 
-\* Structured data storage
+* Structured data storage
 
-\* Data consistency
+* Data consistency
 
-\* Backup and recovery strategies
-
-
-
-\---
+* Backup and recovery strategies
 
 
 
-\## 10. Future Enhancements
+---
+
+
+
+## 10. Future Enhancements
 
 
 
@@ -302,17 +302,17 @@ The architecture should allow future improvements such as:
 
 
 
-\* Microservices-based architecture
+* Microservices-based architecture
 
-\* Advanced search systems
+* Advanced search systems
 
-\* Real-time communication features
+* Real-time communication features
 
-\* AI-based recommendations
+* AI-based recommendations
 
 
 
-\---
+---
 
 
 
