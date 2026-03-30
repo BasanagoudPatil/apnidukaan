@@ -1,8 +1,8 @@
-\# ApniDukaan — System Flow
+# ApniDukaan — System Flow
 
 
 
-\## 1. Introduction
+## 1. Introduction
 
 
 
@@ -16,11 +16,11 @@ The purpose of this document is to provide a clear understanding of user journey
 
 
 
-\---
+---
 
 
 
-\## 2. Actors
+## 2. Actors
 
 
 
@@ -28,21 +28,21 @@ The system involves the following primary actors:
 
 
 
-\* Customer (User)
+* Customer (User)
 
-\* Shop Owner
-
-
-
-\---
+* Shop Owner
 
 
 
-\## 3. User Registration Flow
+---
 
 
 
-\### Description
+## 3. User Registration Flow
+
+
+
+### Description
 
 
 
@@ -50,7 +50,7 @@ This flow describes how a new user registers on the platform.
 
 
 
-\### Flow Steps
+### Flow Steps
 
 
 
@@ -70,15 +70,15 @@ This flow describes how a new user registers on the platform.
 
 
 
-\---
+---
 
 
 
-\## 4. Shop Creation Flow
+## 4. Shop Creation Flow
 
 
 
-\### Description
+### Description
 
 
 
@@ -86,7 +86,7 @@ This flow explains how a shop owner creates a new shop.
 
 
 
-\### Flow Steps
+### Flow Steps
 
 
 
@@ -108,15 +108,15 @@ This flow explains how a shop owner creates a new shop.
 
 
 
-\---
+---
 
 
 
-\## 5. Shop Discovery Flow
+## 5. Shop Discovery Flow
 
 
 
-\### Description
+### Description
 
 
 
@@ -124,7 +124,7 @@ This flow describes how customers find shops on the platform.
 
 
 
-\### Flow Steps
+### Flow Steps
 
 
 
@@ -152,15 +152,15 @@ This flow describes how customers find shops on the platform.
 
 
 
-\---
+---
 
 
 
-\## 6. Product Browsing Flow
+## 6. Product Browsing Flow
 
 
 
-\### Description
+### Description
 
 
 
@@ -168,7 +168,7 @@ This flow describes how customers browse products within a shop.
 
 
 
-\### Flow Steps
+### Flow Steps
 
 
 
@@ -182,15 +182,15 @@ This flow describes how customers browse products within a shop.
 
 
 
-\---
+---
 
 
 
-\## 7. Order Placement Flow
+## 7. Order Placement Flow
 
 
 
-\### Description
+### Description
 
 
 
@@ -198,7 +198,7 @@ This flow describes how a customer places an order.
 
 
 
-\### Flow Steps
+### Flow Steps
 
 
 
@@ -220,15 +220,15 @@ This flow describes how a customer places an order.
 
 
 
-\---
+---
 
 
 
-\## 8. Order Management Flow (Shop Owner)
+## 8. Order Management Flow (Shop Owner)
 
 
 
-\### Description
+### Description
 
 
 
@@ -236,7 +236,7 @@ This flow describes how shop owners manage incoming orders.
 
 
 
-\### Flow Steps
+### Flow Steps
 
 
 
@@ -256,15 +256,15 @@ This flow describes how shop owners manage incoming orders.
 
 
 
-\---
+---
 
 
 
-\## 9. Communication Flow (Optional)
+## 9. Communication Flow (Optional)
 
 
 
-\### Description
+### Description
 
 
 
@@ -272,7 +272,7 @@ This flow describes communication between customers and shop owners.
 
 
 
-\### Flow Steps
+### Flow Steps
 
 
 
@@ -284,25 +284,25 @@ This flow describes communication between customers and shop owners.
 
 
 
-\---
+---
 
 
 
-\## 10. Notes for Future Scalability
+## 10. Notes for Future Scalability
 
 
 
-\* Shop discovery should support efficient search and filtering.
+* Shop discovery should support efficient search and filtering.
 
-\* Order processing should ensure reliability and consistency.
+* Order processing should ensure reliability and consistency.
 
-\* The system should be designed to handle increasing numbers of users and shops.
+* The system should be designed to handle increasing numbers of users and shops.
 
-\* Communication features may be extended in future versions.
+* Communication features may be extended in future versions.
 
 
 
-\---
+---
 
 
 
