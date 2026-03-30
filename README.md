@@ -21,5 +21,3 @@ and manage their own online storefront.
 The project aims to support the digital growth of local businesses and provide scalable solutions 
 for independent online stores.
 
-• License
-This project is currently under development.
